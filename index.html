@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/inputmask/dist/jquery.inputmask.js"></script>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <input id="example1" data-inputmask-clearmaskonlostfocus="false" />
+    <input id="example2"
+        data-inputmask-regex="[a-za-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" />
+
+    <input id="example3" data-inputmask-clearmaskonlostfocus="false" data-inputmask="'alias': 'datetime'" />
+    <input id="example4" data-inputmask="'mask': '9', 'repeat': 10, 'greedy' : false" />
+</body>
+
+</html>

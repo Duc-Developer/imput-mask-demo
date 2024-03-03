@@ -1,0 +1,15 @@
+{
+  "name": "inputmask",
+  "version": "1.0.0",
+  "description": "This is demo from inputmask package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inputmask": "^5.0.8",
+    "jquery": "^3.7.1"
+  }
+}
